@@ -912,6 +912,13 @@ body.light-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media(max-width: 420px) {
+  .work__filters{
+        display: flex
+;
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 320px) {
   .nav__menu {
     padding: 1rem 1.5rem;
